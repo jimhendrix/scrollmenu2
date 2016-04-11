@@ -1,0 +1,197 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: roboto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+header {
+    
+    background-color: #009688;
+    transition-property: top;
+    
+    transition-duration: 900ms;
+        position: fixed;
+    width: 100%;
+    top: 0;
+   
+    
+}
+
+header h1 {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: -1em;
+    padding: .3em;
+    color: white;
+    font-weight: 300;
+}
+nav {
+    margin-top:-1em;
+    top: 50px;
+    background-color: darkslategray;
+    height: 10em;
+    display: block;
+    width: 100%;
+    transition-property: top;
+    transition-duration: 1000ms;
+    position: fixed;
+    box-shadow: 3px 3px 10px gray;
+     opacity: 1;
+    
+}
+
+nav ul {
+    list-style-type: none;
+   margin-top: -.1em;
+    padding: 0 2em;
+    overflow: hidden;
+}
+
+nav ul li {
+    
+    text-align: center;
+    line-height: 2.5em;
+}
+nav ul li:hover {
+    border-bottom: 3px solid whitesmoke;
+}
+
+nav ul li a {
+    text-align: center;
+    line-height: 2.5em;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 560px) {
+    
+    nav {
+        height: 2.5em;
+    }
+    
+    nav ul {
+        margin-left: 1em;
+    }
+    
+    nav ul li {
+       float: left;
+        margin-left: -1.4em;
+        padding: 0 1.4em
+    }
+    
+    header h1 {
+        text-align: left;
+        margin-left: 2em;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+main {
+    
+    margin-left: .2em;
+    margin-top: 12.4em;
+}
+
+.blok {
+    width: 98%;
+    margin-top: 1em;
+}
+
+.blok h3 {
+   color: white;
+    background-color: darkslategray;
+    text-align: center;
+    font-weight: 200;
+    margin-top: .3em;
+    padding: .2em;
+    
+}
+
+
+.blok h4 {
+    text-align: center;
+    font-weight: 300;
+    margin-top: -.3em;
+    
+}
+
+
+.blok p {
+    font-weight: 300;
+    margin-left: .6em;
+    margin-right: .6em;
+    word-break: normal;
+    word-wrap: break-word;
+}
+@media screen and (min-width: 560px) {
+    main {
+        margin-top: 5em;
+    }
+}
+
+
+
+
+
+.blok {
+    
+    border: 2px solid gray;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 3px 3px 10px gray;
+    
+}
+
+
+@media screen and (min-width: 1055px) {
+    .blok {
+        width: 32%;
+        float: left;
+        margin-left: .3em;
+    }
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: darkslategray;
+    width: 100%;
+    height: 3em;
+    position: fixed;
+    bottom: -200px;
+    transition-property: bottom;
+    transition-duration: 2100ms;
+    opacity: .9;
+}
+
+
+footer p {
+    margin-top: 1em;
+    
+}
+
+@media screen and (min-width: 1055px) {
+    footer {
+        bottom: 0;
+    }
+}
